@@ -13,7 +13,7 @@ class Tesla : public Car{
             this->price = price;
             this->model = model;
         }
-        void setBattery(float perc){
+        void set_batteryPercentage(float perc){
             if(perc > 100){
                 batteryPercentage = 100;
             } else if(perc < 0){
@@ -22,13 +22,13 @@ class Tesla : public Car{
                 this->batteryPercentage = perc;
             }
         }
-        float getBattery(){
+        float get_batteryPercentage(){
             return batteryPercentage;
         }
-        void setModel(char model){
+        void set_Model(char model){
             this->model = model;
         }
-        char getModel(){
+        char get_Model(){
             return model;
         }
         void chargeBattery(int mins){

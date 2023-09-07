@@ -15,16 +15,16 @@ class Ford: public Car{
             this->badgeNumber = badgeNumber;
             this->price = price;
         }
-        void setFuel(float fuel){
+        void set_Fuel(float fuel){
             litresOfFuel = fuel;
         }
-        float getFuel(){
+        float get_litresOfFuel(){
             return litresOfFuel;
         }
-        void setbadgeNumber(int num){
+        void set_badgeNumber(int num){
             badgeNumber = num;
         }
-        int getbadgeNumber(){
+        int get_badgeNumber(){
             return badgeNumber;
         }
         void drive(int kms){

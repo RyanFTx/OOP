@@ -12,16 +12,16 @@ class Car{
         Car(int price){
             this->price = price;
         }
-        int getPrice(){
+        int get_Price(){
             return price;
         }
-        int getEmissions(){
+        int get_Emissions(){
             return emissions;
         }
-        void setPrice(int price){
+        void set_Price(int price){
             this->price = price;
         }
-        void setEmissions(int emissions){
+        void set_Emissions(int emissions){
             this->emissions = emissions;
         }
         virtual void drive(int kms){
