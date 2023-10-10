@@ -21,7 +21,7 @@ public:
             ids.pop(); //Removes top element from stack
             return new USBConnection(id); // creates usbconnection object with ID
         }
-        return nullptr; // returns nothing if the stack is empty
+        return nullptr; // returns nothing if the stack is empty.
     }    
 };
 
